@@ -9,7 +9,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
+      "matches": ["https://www.exemple.com/*"],
       "js": ["content.js"]
     }
   ],
