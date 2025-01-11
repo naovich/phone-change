@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "French Number Converter",
+  "version": "1.0",
+  "description": "Convertit automatiquement les numéros de téléphone français au format international",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["activeTab"]
+}
